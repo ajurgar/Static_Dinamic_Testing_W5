@@ -24,8 +24,8 @@ class CardGame:
       return False
    
 
-  dif highest_card(self, card1 card2):    #missing "," between card1 card2
-  if card1.value > card2.value:
+  dif highest_card(self, card1 card2):    #missing "," between card1 card2 and def instead of dif
+  if card1.value > card2.value:         #indentation if, else and returns
     return card                         #missing card1 not card
   else:
     return card2
@@ -36,6 +36,6 @@ def cards_total(self, cards):
   total             #missing total = 0
   for card in cards:
     total += card.value
-    return "You have a total of" + total    #indentation 
+    return "You have a total of" + total    #indentation for return + space at the end of string and str(total)
   
 ```
